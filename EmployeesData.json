@@ -1,0 +1,15 @@
+[
+  { "id": 1, "name": "John Doe", "designation": "Web Designer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-02.jpg" },
+  { "id": 2, "name": "Richard Miles", "designation": "Web Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-09.jpg" },
+  { "id": 3, "name": "John Smith", "designation": "Android Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-10.jpg" },
+  { "id": 4, "name": "Mike Litorus", "designation": "IOS Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-05.jpg" },
+  { "id": 5, "name": "Wilmer Deluna", "designation": "Team Leader", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-11.jpg" },
+  { "id": 6, "name": "Jeffrey Warden", "designation": "Web Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-12.jpg" },
+  { "id": 7, "name": "Bernardo Galaviz", "designation": "Web Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-13.jpg" },
+  { "id": 8, "name": "Lesley Grauer", "designation": "Team Leader", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-01.jpg" },
+  { "id": 9, "name": "Jeffery Lalor", "designation": "Team Leader", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-16.jpg" },
+  { "id": 10, "name": "Loren Gatlin", "designation": "Android Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-04.jpg" },
+  { "id": 11, "name": "Tarah Shropshire", "designation": "Android Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-03.jpg" },
+  { "id": 12, "name": "Catherine Manseau", "designation": "Android Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-08.jpg" }
+ 
+]
