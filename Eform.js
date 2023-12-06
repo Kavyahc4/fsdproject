@@ -288,6 +288,6 @@ const EmployeeForm = () => {
     </div> 
 </>
   )
-  }   
+}   
 
 export default EmployeeForm;
