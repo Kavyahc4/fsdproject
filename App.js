@@ -5,8 +5,7 @@ import './E.css'
 const App = () => {
   return (
     <div>
-      <EmployeePage />
-     
+      <EmployeePage /> 
     </div>
   );
 };

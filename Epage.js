@@ -4,12 +4,15 @@ import EmployeeForm from './Eform';
 import './E.css';
 import EmployeeCard from './EmployeeCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faBars, faTableCells , faBarsStaggered,faBell,faComment, faSearch,faCaretDown} from '@fortawesome/free-solid-svg-icons';
+import {  faBars, faTableCells , faBarsStaggered,faBell,faComment,faCaretDown} from '@fortawesome/free-solid-svg-icons';
 import EditModal from './EditModal';
 import DeleteModal from './DeleteModal';
 
 const EmployeePage = () => {
   const [employees, setEmployees] = useState([]);
+  const [displayMode, setDisplayMode] = useState("grid");
+  
+  
 
   useEffect(() => {
     import('./EmployeesData.json') 
@@ -90,8 +93,10 @@ const EmployeePage = () => {
         </div>
       <div className="right-section">
         <div className="icons">
-           <FontAwesomeIcon icon={faTableCells} className="icon" />
-           <FontAwesomeIcon icon={faBars} className="icon" />
+           <FontAwesomeIcon icon={faTableCells} className={`icon ${displayMode === "grid" ? "active" : ""}`}
+      onClick={() => setDisplayMode("grid")} />
+           <FontAwesomeIcon icon={faBars} className={`icon ${displayMode === "list" ? "active" : ""}`}
+      onClick={() => setDisplayMode("list")} />
         </div>
         <button className="add-employee-btn" onClick={openAddEmployeeModal}>+ Add Employee</button>
       </div>
@@ -108,12 +113,25 @@ const EmployeePage = () => {
     
     <button type="button" className='btn btn-success'>Search</button>
     </div>
-    <div className="employee-grid">
-        {employees.map((employee) => (
-          <EmployeeCard key={employee.id} employee={employee} onEdit={() => openEditModal(employee)}
-          onDelete={() => openDeleteModal(employee)}/>
-        ))}
-      </div>
+           {displayMode === "grid" ? (
+        <div className="employee-grid">
+          {employees.map((employee) => (
+            <EmployeeCard
+              key={employee.id}
+              employee={employee}
+              onEdit={() => openEditModal(employee)}
+              onDelete={() => openDeleteModal(employee)}
+            />
+          ))}
+        </div>
+      ) : (
+        <EmployeeList
+          employees={employees}
+          onEdit={openEditModal}
+          onDelete={openDeleteModal}
+          isListMode={displayMode === "list"}
+        />
+      )}
       {isAddEmployeeModalOpen && (
         <div className="modal">
           <div className="modal-content">

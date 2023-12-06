@@ -1,15 +1,15 @@
 [
-  { "id": 1, "name": "John Doe", "designation": "Web Designer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-02.jpg" },
-  { "id": 2, "name": "Richard Miles", "designation": "Web Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-09.jpg" },
-  { "id": 3, "name": "John Smith", "designation": "Android Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-10.jpg" },
-  { "id": 4, "name": "Mike Litorus", "designation": "IOS Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-05.jpg" },
-  { "id": 5, "name": "Wilmer Deluna", "designation": "Team Leader", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-11.jpg" },
-  { "id": 6, "name": "Jeffrey Warden", "designation": "Web Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-12.jpg" },
-  { "id": 7, "name": "Bernardo Galaviz", "designation": "Web Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-13.jpg" },
-  { "id": 8, "name": "Lesley Grauer", "designation": "Team Leader", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-01.jpg" },
-  { "id": 9, "name": "Jeffery Lalor", "designation": "Team Leader", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-16.jpg" },
-  { "id": 10, "name": "Loren Gatlin", "designation": "Android Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-04.jpg" },
-  { "id": 11, "name": "Tarah Shropshire", "designation": "Android Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-03.jpg" },
-  { "id": 12, "name": "Catherine Manseau", "designation": "Android Developer", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-08.jpg" }
+  { "id": 1, "name": "John Doe", "designation": "Web Designer","EmployeeID":"FT-0001", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-02.jpg" ,"Email":"johndoe@example.com","Mobile":"9876543210","JoinDate":"1 Jan 2013","Role":"Web Designer"},
+  { "id": 2, "name": "Richard Miles", "designation": "Web Developer","EmployeeID":"FT-0002", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-09.jpg","Email":"richardmiles@example.com","Mobile":"9876543210","JoinDate":"18 Mar 2014","Role":"Web Developer" },
+  { "id": 3, "name": "John Smith", "designation": "Android Developer","EmployeeID":"FT-0003", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-10.jpg","Email":"johnsmith@example.com","Mobile":"9876543210","JoinDate":"1 Apr 2014","Role":"Android Developer" },
+  { "id": 4, "name": "Mike Litorus", "designation": "IOS Developer","EmployeeID":"FT-0004", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-05.jpg","Email":"mikelitorus@example.com","Mobile":"9876543210","JoinDate":"1 Apr 2014","Role":"IOS Developer" },
+  { "id": 5, "name": "Wilmer Deluna", "designation": "Team Leader","EmployeeID":"FT-0005", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-11.jpg" ,"Email":"wilmerdeluna@example.com","Mobile":"9876543210","JoinDate":"22 May 2014","Role":"Team Leader"},
+  { "id": 6, "name": "Jeffrey Warden", "designation": "Web Developer","EmployeeID":"FT-0006", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-12.jpg","Email":"jeffreywarden@example.com","Mobile":"9876543210","JoinDate":"16 Jun 2013","Role":"Web Developer" },
+  { "id": 7, "name": "Bernardo Galaviz", "designation": "Web Developer","EmployeeID":"FT-0007", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-13.jpg","Email":"bernardogalaviz@example.com","Mobile":"9876543210","JoinDate":"1 Jan 2013","Role":"Web Developer" },
+  { "id": 8, "name": "Lesley Grauer", "designation": "Team Leader","EmployeeID":"FT-0008", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-01.jpg","Email":"johndoe@example.com","Mobile":"9876543210","JoinDate":"1 Jan 2013","Role":"Web Designer" },
+  { "id": 9, "name": "Jeffery Lalor", "designation": "Team Leader","EmployeeID":"FT-0009", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-16.jpg" ,"Email":"johndoe@example.com","Mobile":"9876543210","JoinDate":"1 Jan 2013","Role":"Web Designer"},
+  { "id": 10, "name": "Loren Gatlin", "designation": "Android Developer","EmployeeID":"FT-0010", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-04.jpg","Email":"johndoe@example.com","Mobile":"9876543210","JoinDate":"1 Jan 2013","Role":"Web Designer" },
+  { "id": 11, "name": "Tarah Shropshire", "designation": "Android Developer","EmployeeID":"FT-0011", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-03.jpg","Email":"johndoe@example.com","Mobile":"9876543210","JoinDate":"1 Jan 2013","Role":"Web Designer" },
+  { "id": 12, "name": "Catherine Manseau", "designation": "Android Developer","EmployeeID":"FT-0012", "image": "https://sumits.me/HRMS/assets/img/profiles/avatar-08.jpg","Email":"johndoe@example.com","Mobile":"9876543210","JoinDate":"1 Jan 2013","Role":"Web Designer" }
  
 ]
