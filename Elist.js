@@ -15,10 +15,10 @@ const EmployeeList = ({ employees, onEdit, onDelete, isListMode }) => {
       <table>
         <thead>
           <tr>
-            <th>Name <FontAwesomeIcon icon={faSort} style={{color: "#818a89",paddingLeft:"220px"}} /></th>
-            <th>Employee ID<FontAwesomeIcon icon={faSort} style={{color: "#818a89",paddingLeft:"9px"}} /></th>
+            <th>Name <FontAwesomeIcon icon={faSort} style={{color: "#818a89",paddingLeft:"200px"}} /></th>
+            <th>Employee ID<FontAwesomeIcon icon={faSort} style={{color: "#818a89",paddingLeft:"80px"}} /></th>
             <th>Email  <FontAwesomeIcon icon={faSort} style={{color: "#818a89",paddingLeft:"130px"}} /></th>
-            <th>Mobile  <FontAwesomeIcon icon={faSort} style={{color: "#818a89",paddingLeft:"30px"}} /></th>
+            <th>Mobile  <FontAwesomeIcon icon={faSort} style={{color: "#818a89",paddingLeft:"130px"}} /></th>
             <th>Join Date <FontAwesomeIcon icon={faSort} style={{color: "#818a89",paddingLeft:"30px"}} /></th>
             <th>Role  <FontAwesomeIcon icon={faSort} style={{color: "#818a89",paddingLeft:"70px"}} /></th>
             <th>Action  <FontAwesomeIcon icon={faSort} style={{color: "#818a89",paddingLeft:"30px"}} /></th>
@@ -27,7 +27,7 @@ const EmployeeList = ({ employees, onEdit, onDelete, isListMode }) => {
         <tbody>
           {employees.map((employee) => (
             <tr key={employee.id}>
-              <td>{employee.name} {employee.designation}<img src={employee.image} alt={employee.name} style={{height:"30px",width:"30px",float:"left",borderRadius:"14px"}}/></td>
+              <td>{employee.name} {employee.designation} <img src={employee.image} alt={employee.name} style={{height:"30px",width:"30px",float:"left",borderRadius:"14px",marginRight:"12px"}}/></td>
               <td>{employee.EmployeeID}</td>
               <td>{employee.Email}</td>
               <td>{employee.Mobile}</td>
@@ -40,7 +40,7 @@ const EmployeeList = ({ employees, onEdit, onDelete, isListMode }) => {
                 </select>
               </td>
               <td>
-                  <FontAwesomeIcon icon={faEllipsisV} style={{marginLeft:"35px"}} /> 
+                  <FontAwesomeIcon icon={faEllipsisV} style={{marginLeft:"68px"}} /> 
               </td>
             </tr>
           ))}

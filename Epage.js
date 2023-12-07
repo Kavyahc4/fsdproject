@@ -4,7 +4,7 @@ import EmployeeForm from './Eform';
 import './E.css';
 import EmployeeCard from './EmployeeCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faBars, faTableCells , faBarsStaggered,faBell,faComment,faCaretDown} from '@fortawesome/free-solid-svg-icons';
+import {  faBars, faTableCells , faBarsStaggered,faBell,faComment} from '@fortawesome/free-solid-svg-icons';
 import EditModal from './EditModal';
 import DeleteModal from './DeleteModal';
 
@@ -73,7 +73,10 @@ const EmployeePage = () => {
           </form>
       <div className="language-dropdown">
       <img  className="logo" src="https://cdn-icons-png.flaticon.com/128/206/206626.png?ga=GA1.1.740973004.1701329086" alt='logo'></img>
-          <span className="dropdown-icon">English <FontAwesomeIcon icon={faCaretDown} /></span>
+          <select>
+            <option>English</option>
+            <option>Germany</option>
+            </select>
         </div>
 
         <div className='iconsNav'>
@@ -82,7 +85,11 @@ const EmployeePage = () => {
         </div>
             <div className="admin-dropdown">
             <img  className="logo" src="https://sumits.me/HRMS/assets/img/profiles/avatar-21.jpg" alt='logo'></img>
-            <span className="dropdown-icon1">Admin<FontAwesomeIcon icon={faCaretDown} /></span>
+            <select>
+              <option>Admin</option>
+              <option>Profile</option>
+              <option>Logout</option>
+            </select>
         </div>
       </div>
     </div>

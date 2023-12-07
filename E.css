@@ -43,7 +43,7 @@
 @media only screen and (max-width: 600px) {
   .navbar {
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
   }
 }
 .search-input {
@@ -73,6 +73,18 @@
   padding: 5px;
   /* color: black; */
   margin-left: 1px;
+}
+.language-dropdown select{
+  border-radius: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.admin-dropdown select{
+  border-radius: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
 }
 .iconsNav{
   display: flex;
@@ -212,7 +224,6 @@ width: 20%;
     margin-top: 5px;
     align-items:center ;
   }
-  
 .card-header {
     display: flex;
     justify-content: space-between;
@@ -231,10 +242,10 @@ width: 20%;
     padding: 5px;
     text-align: center;
     height: 145px;
-      margin-left: 6px;
-      margin-right: 6px;
-      margin-top: 4px;
-      margin-bottom: 1px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 4px;
+    margin-bottom: 1px;
   }
 .circle-container {
      width: 100px;
@@ -249,7 +260,11 @@ width: 20%;
     justify-content: center;
    
   }
-  
+  @media (max-width: 768px) {
+    .employee-card {
+      width: 100%;
+    }
+  }
 .employee-image {
     width: 80%;
     height: 80%;
@@ -486,18 +501,18 @@ table {
   border-collapse: collapse;
   margin-top: 10px;
 }
-
 thead {
   background-color: #f5f5f5;
   color: black;
 }
 
 th, td {
-  padding: 10px;
+  padding: 5px;
   text-align: left;
   border-bottom: 1px solid #ddd;
+  font-size: 11px;
+  
 }
-
 tbody tr:hover {
   background-color: #f5f5f5;
 }
@@ -512,4 +527,33 @@ button {
 .icon.active {
   color: #007bff;
   cursor: pointer;
+}
+.employee-list {
+  @media screen and (max-width: 600px) {
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      display: none;
+    }
+
+    td {
+      display: block;
+      border-bottom: 1px solid #ddd;
+    }
+
+    td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      display: inline-block;
+      width: 120px;
+    }
+  }
 }
